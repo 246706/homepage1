@@ -14,18 +14,13 @@ body{
     background-repeat: repeat;
 }
 
-form{
-    width:100%;
-    max-width: 600px;
-    margin: 0 auto;
-    border:2px solid rgb(9, 176, 9);
-}
+
 .typewriter h1 {
     
     font-family: "Source Code Pro", monospace;
     font-optical-sizing: auto;
     font-weight: 300;
-    font-size: 20px;
+    font-size: 25px;
     color: rgb(9, 176, 9);
     font-family: monospace;
     overflow: hidden; /* Ensures the content is not revealed until the animation */
@@ -53,4 +48,36 @@ form{
     50% { border-color: rgb(9, 176, 9); }
   }
   
+/*
+=================================================
+SEARCH
+=================================================
+*/
+form{
+  width:100%;
+  max-width:400px;
+  margin:0 auto;
   
+  
+}
+input{
+  font-family: "Source Code Pro", monospace;
+  color: rgb(9, 176, 9);
+  width: 100%;
+  font-size:20px;
+  margin:5px 0;
+  border:2px solid rgb(9, 176, 9) ;
+  padding:5px;
+  outline:none;
+  display:inline-block;
+  background-color: transparent;
+}
+.search-bar{
+  width:80%;
+  border-radius: 10%;
+}
+.submit-button{
+  width:15%;
+  background:rgb(9, 176, 9); 
+  color:rgb(0, 0, 0);
+}
