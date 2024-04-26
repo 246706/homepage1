@@ -10,28 +10,33 @@ body{
     text-align: center;
     font-family: monospace;
     background: black;
-    background-image: url("image_6483441.JPG");
-    background-repeat: repeat;
+    background-image: url(IMG_6882.GIF);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: contain;
+}
+img{
+  width: 100%;
 }
 
-
 .typewriter h1 {
-    
+    background: black;
     font-family: "Source Code Pro", monospace;
     font-optical-sizing: auto;
     font-weight: 300;
-    font-size: 25px;
+    font-size: 15px;
     color: rgb(9, 176, 9);
     font-family: monospace;
     overflow: hidden; /* Ensures the content is not revealed until the animation */
-    border-right: .15em solid rgb(9, 176, 9); /* The typwriter cursor */
+    border-right: .15em solid rgb(255, 255, 255); /* The typwriter cursor */
     white-space: nowrap; /* Keeps the content on a single line */
     margin-top:400px;
     margin-bottom:25px;
-    letter-spacing: .15em; /* Adjust as needed */
+    letter-spacing: 15px; /* Adjust as needed */
     display: inline-block;
     animation: 
-      typing 3.5s steps(30, end),
+      typing 4s steps(30, end),
       blink-caret .5s step-end infinite;
       
   }
@@ -39,7 +44,7 @@ body{
   /* The typing effect */
   @keyframes typing {
     from { width: 0 }
-    to { width: 80% }
+    to { width: 500px }
   }
   
   /* The typewriter cursor effect */
@@ -55,29 +60,36 @@ SEARCH
 */
 form{
   width:100%;
-  max-width:400px;
+  max-width:700px;
   margin:0 auto;
+  float: center;
   
   
 }
 input{
   font-family: "Source Code Pro", monospace;
-  color: rgb(9, 176, 9);
+  color:  rgb(9, 176, 9);
   width: 100%;
-  font-size:20px;
+  font-size:12px;
+  letter-spacing: 15px;
   margin:5px 0;
   border:2px solid rgb(9, 176, 9) ;
-  padding:5px;
+  padding: 5px 30px;
   outline:none;
   display:inline-block;
-  background-color: transparent;
+  background-color: black;
 }
 .search-bar{
   width:80%;
-  border-radius: 10%;
+  border-radius: 30%;
 }
 .submit-button{
-  width:15%;
-  background:rgb(9, 176, 9); 
-  color:rgb(0, 0, 0);
+  border: none;
+  padding: 5px ;
+  width:0%;
+  background: transparent; 
+  color: transparent;
+}
+a{
+  color: rgb(9, 176, 9);
 }
